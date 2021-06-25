@@ -1,7 +1,8 @@
 import socket
 import threading
 
-#This 
+# This is a multithreaded server that will accept incoming request, start a new thread and then
+# serve that request through a new port
 
 HOSTNAME = ''
 PORT = 6789
